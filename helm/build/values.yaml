@@ -1,0 +1,16 @@
+app:
+  name: frontend-svc
+  namespace: frontend-svc-dev
+  cluster: .apps.cluster-cl4w8.cl4w8.sandbox526.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/LiorJanus/frontend-svc
+  org: LiorJanus
+  name: frontend-svc
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: liorjanus
+  name: frontend-svc
